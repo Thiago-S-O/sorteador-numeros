@@ -8,6 +8,7 @@ function intervalChosenOfNumberList(minNumber, maxNumber) {
   for (let i = 0; i < (maxNumber - minNumber); i++) {
     // se deixar só minNumber + i, o js concatena já que é a soam de variáveis do tipo any
     let inputNumberInArray = minNumber - 1 + i + 1;
+    // let inputNumberInArray = parseInt(minNumber + i);
     numberList.push(inputNumberInArray);
   }
   return numberList;
